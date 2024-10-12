@@ -1,0 +1,33 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.navbar{
+  width: 100%;
+  height:80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.links{
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+
+}
+.fa-icons:hover{
+  color: red;
+}
+.txlog{
+  color: white;
+  margin-left: 50px;
+  font-size: 25px;
+}
